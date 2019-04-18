@@ -19,8 +19,9 @@ button {
   transform: translate(-50%, -0%);
 }
 
-h1 {
+p {
   position: relative;
+  font-size: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
 }

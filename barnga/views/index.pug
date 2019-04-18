@@ -4,7 +4,7 @@ block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/index.js")
   div#wrapper
-    h1= title
+    p= title
     label(for='name')
     input#name.text_input(type='text', name='name')
     button(onclick="window.broadcast()") broadcast howdy

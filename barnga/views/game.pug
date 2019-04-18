@@ -3,6 +3,6 @@ extends layout
 block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/game.js")
-  h1= title
+  p= title
   p Welcome to #{title}
   button(onclick="window.broadcast()") broadcast howdy
