@@ -7,5 +7,6 @@
 
   window.broadcast = function() {
     socket.emit('broadcast', 'howdy')
+    console.log("howdy")
   }
 })();
