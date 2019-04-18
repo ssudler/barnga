@@ -4,5 +4,6 @@ block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/index.js")
   h1= title
-  p Welcome to #{title}
+  label(for='name')
+  input#name.text_input(type='text', name='name')
   button(onclick="window.broadcast()") broadcast howdy

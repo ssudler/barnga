@@ -43,6 +43,10 @@ var game = class {
       player.revealCard(cardIndex);
     });
 
+    socket.on('moveCard', function(cardIndex, x, y) {
+      player.moveCard(cardIndex, x, y);
+    });
+
     socket.on('disconnect', function() {
       removePlayer(socket.id)
     });

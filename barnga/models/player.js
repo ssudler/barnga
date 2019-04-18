@@ -50,6 +50,13 @@ var player = class {
     if (cardIndex < this.table.length) this.table[cardIndex].flip();
   }
 
+  moveCard(cardIndex, x, y) {
+    if (cardIndex < this.table.length) {
+      this.table[cardIndex].x = x;
+      this.table[cardIndex].y = y;
+    }
+  }
+
   // Get a compressed version of the object
   getCompressed() {
     return {
