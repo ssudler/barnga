@@ -1,4 +1,5 @@
 {
   "oneDeckPerGame": true,
-  "gameIdDigits": 4
+  "gameIdDigits": 4,
+  "fps": 30
 }

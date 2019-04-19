@@ -21,7 +21,14 @@ var player = class {
 
     if (config.oneDeckPerGame) {
       // Randomly pick cards from deck
-      for (var i = 0; i < numberOfCards; i++) { this.hand[i] = deck.pop(randInt(deck.length)); }
+      for (var i = 0; i < numberOfCards; i++) {
+        this.hand[i] = deck.pop(randInt(deck.length));
+
+        // Refill deck if empty
+        if (deck.length === 0) {
+          for (var j = 0; j < 52; j++) { deck[j] = new Card(j / 13, j); }
+        }
+      }
     } else {
       // Randomly generate the cards
       for (var i = 0; i < numberOfCards; i++) { this.hand[i] = new Card(randInt(4), randInt(13) + 1); }

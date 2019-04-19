@@ -6,13 +6,20 @@ var router = express.Router();
 
 var io = socket();
 
+let gameManager = new GameManager();
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Barnga', error: req.query.e });
 });
 
 router.get('/b/', function(req, res, next) {
-  res.render('game', { title: 'Barnga', gameId: req.query.g });
+  res.render('game', { title: 'Barnga', gameId: req.query.g, nickname: req.query.n, ownerCode: req.query.oc });
+});
+
+router.get('/c/', function (req, res, next) {
+  var game = gameManager.createGame(req.query.cn, null, req.query.f);
+  res.redirect('/b?g='+game.id+'&n='+req.query.n+'&oc='+game.ownerCode);
 });
 
 io.on('connection', function(socket) {
@@ -26,11 +33,6 @@ io.on('connection', function(socket) {
   socket.on('joinGame', function(name, gameId) {
     addPlayerToGame(gameId, socket, name);
   });
-
-  socket.on('createGame', function(name, numberOfCards) {
-    var id = gameManager.createGame(numberOfCards);
-    addPlayerToGame(id, socket, name);
-  })
 
 });
 

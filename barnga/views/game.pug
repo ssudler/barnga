@@ -3,6 +3,8 @@ extends layout
 block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/game.js")
+  script.
+    window.setGameVars("#{gameId}", "#{nickname}", "#{ownerCode}");
   h1= title
   p Welcome to #{title}
-  button(onclick="window.broadcast()") broadcast howdy
+  p#data

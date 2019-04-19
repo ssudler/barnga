@@ -4,6 +4,25 @@ block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/index.js")
   h1= title
-  label(for='name')
+  h2 Join Game
+  label(for='name') Nickname
   input#name.text_input(type='text', name='name')
-  button(onclick="window.broadcast()") broadcast howdy
+  br
+  label(for='gameId') Game Code
+  input#gameId.text_input(type='text', name='gameId')
+  br
+  button#joinGame.enter_button(onclick="window.joinGame()") Join game!
+  br
+  if error
+    p#error Error joining game.
+    br
+  br
+  div#gameCreation
+    h3 Create Game
+    label(for='numberOfCards') Number of Cards per Player
+    input#numberOfCards.text_input(type='number', min='1', max='52', name='numberOfCards')
+    br
+    label(for='filterNames') Filter inappropriate names?
+    input#gameFilter.checkbox_input(type='checkbox', name='filterNames')
+    br
+    button#createGame.enter_button(onclick="window.createGame()") Create game!
