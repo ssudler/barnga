@@ -10,7 +10,7 @@
     let name = document.getElementById('name').value;
     let numberOfCards = document.getElementById('numberOfCards').value;
     let gameFilter = document.getElementById('gameFilter').value;
-
+    
     window.location.replace('/c?n='+name+'&cn='+numberOfCards+'&f='+gameFilter+'/');
   }
 })();

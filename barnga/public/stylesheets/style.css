@@ -3,6 +3,31 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  width: 100px;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: relative;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -0%);
+}
+
+p {
+  position: relative;
+  font-size: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -75%);
 }
