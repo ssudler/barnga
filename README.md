@@ -1,7 +1,7 @@
 # Barnga
-An intercultural understanding game Hello! Welcome! Bienvenue!
+An intercultural understanding game
 
-Thank you for visiting the Barnga simulation app project repository. This document (the README file) is a hub to give you some information about the project.
+Thank you for visiting the Barnga simulation app project repository.
 
 What we are doing?
 
