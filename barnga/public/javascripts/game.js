@@ -14,7 +14,7 @@
 
     // Try to set owner if owner code
     if (ownerCode) socket.emit('setOwner', ownerCode);
-  }
+  };
 
   socket.on('joinUnsuccessful', function() {
     console.log('join failed');

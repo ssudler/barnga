@@ -91,3 +91,6 @@ typings/
 
 # DS_Store
 .DS_Store
+
+# IDE files
+.idea
