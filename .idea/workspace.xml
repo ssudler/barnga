@@ -2,10 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534bb874-003c-4389-833b-a94ba912baea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/Ace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/Jack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/King.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Clubs/Queen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/Ace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/Jack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/King.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Diamonds/Queen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/Ace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/Jack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/King.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Hearts/Queen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/Ace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/Jack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/King.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Cards/Spades/Queen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/clubs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/diamonds.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hearts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/spades.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barnga/public/javascripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/javascripts/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barnga/public/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/javascripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            <state relative-caret-position="237">
+              <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -224,23 +279,23 @@
       <option name="presentableId" value="Default" />
       <updated>1555680565281</updated>
       <workItem from="1555680568667" duration="3108000" />
-      <workItem from="1556064665315" duration="1497000" />
+      <workItem from="1556064665315" duration="2175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4605000" />
+    <option name="totallyTimeSpent" value="5283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32987553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32987553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="237">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
         </state>
       </provider>
     </entry>
