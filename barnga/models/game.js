@@ -18,7 +18,7 @@ var Game = class {
     this.id = gameId;
 
     // Number of cards per player
-    this.numberOfCards = numberOfCards;
+    this.numberOfCards = numberOfCards < 1 || isNaN(Number(numberOfCards)) ? 1 : Math.round(numberOfCards);
 
     // Filter inappropriate names
     this.filter = filter;
