@@ -2,13 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534bb874-003c-4389-833b-a94ba912baea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/barnga/models/rule_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/clubs/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/diamonds/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/hearts/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/images/cards/spades/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/models/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barnga/public/models/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/barnga.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barnga/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barnga/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barnga/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barnga/models/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/models/card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barnga/models/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/models/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barnga/models/game_manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/models/game_manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barnga/models/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/models/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barnga/public/javascripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/javascripts/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barnga/public/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/javascripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barnga/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barnga/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barnga/views/game.pug" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/views/game.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barnga/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/views/index.pug" afterDir="false" />
     </list>
@@ -26,17 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="285">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/models/game_manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="525">
+              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -44,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/models/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+            <state relative-caret-position="600">
+              <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -62,17 +128,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            <state relative-caret-position="426">
+              <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/barnga/views/game.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -80,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/models/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="94" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+            <state relative-caret-position="615">
+              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -105,11 +171,11 @@
         <option value="$PROJECT_DIR$/barnga/app.js" />
         <option value="$PROJECT_DIR$/barnga/bin/www" />
         <option value="$PROJECT_DIR$/barnga/routes/index.js" />
-        <option value="$PROJECT_DIR$/barnga/views/game.pug" />
-        <option value="$PROJECT_DIR$/barnga/views/index.pug" />
         <option value="$PROJECT_DIR$/barnga/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/barnga/models/player.js" />
         <option value="$PROJECT_DIR$/barnga/models/game.js" />
+        <option value="$PROJECT_DIR$/barnga/views/index.pug" />
+        <option value="$PROJECT_DIR$/barnga/views/game.pug" />
       </list>
     </option>
   </component>
@@ -118,11 +184,13 @@
     <option name="width" value="1372" />
     <option name="height" value="736" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,16 +312,18 @@
       <workItem from="1556510368642" duration="5935000" />
       <workItem from="1557028810800" duration="4057000" />
       <workItem from="1557082017363" duration="21131000" />
+      <workItem from="1557149581579" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35270000" />
+    <option name="totallyTimeSpent" value="35351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,10 +383,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/views/index.pug">
+    <entry file="file://$PROJECT_DIR$/barnga/public/javascripts/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="120">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barnga/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barnga/models/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -328,45 +411,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/views/game.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barnga/models/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="94" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/models/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/public/javascripts/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="615">
+          <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barnga/models/game_manager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="525">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barnga/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barnga/views/game.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>

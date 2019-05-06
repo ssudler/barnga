@@ -1,11 +1,20 @@
+//
+//  models/game.js
+//  Barnga
+//
+//  Created by Robert May on 5/3/19.
+//  Copyright © 2019 Robert May. All rights reserved.
+//
+
 const Player = require('./player.js');
-const Card = require('./card.js')
+const Card = require('./card.js');
+const RuleManager = require('./rule_manager.js');
 const config = require('../config');
 
-var game = class {
+var Game = class {
 
   constructor(gameId, numberOfCards = 7, owner, filter, removeGame) {
-    // Like kahoot or Jackbox, use a short code to identify a game
+    // Use a short code to identify a game
     this.id = gameId;
 
     // Number of cards per player
@@ -33,7 +42,7 @@ var game = class {
     }
 
     // A callback which can be used to self destruct the game
-    this.destructionCallback = removeGame
+    this.destructionCallback = removeGame;
 
     // Start constantly updating players
     setInterval(()=>{ this.update() }, 1000/config.fps)
@@ -51,40 +60,38 @@ var game = class {
     var player = this.players[socket.id];
     var self = this;
 
-    // set up socket interactions
-    socket.on('moveCardToHand', function(cardIndex) {
-      player.moveCardToHand(cardIndex);
-    });
+    // set up socket interactions with player
+    player.setUpSocket();
 
-    socket.on('moveCardToTable', function(cardIndex) {
-      player.moveCardToTable(cardIndex);
-    });
-
-    socket.on('revealCard', function(cardIndex) {
-      player.revealCard(cardIndex);
-    });
-
-    socket.on('moveCard', function(cardIndex, x, y) {
-      player.moveCard(cardIndex, x, y);
-    });
-
+    // set up socket interactions with game
     socket.on('setOwner', function(ownerCode) {
-      self.setOwner(socket.id, ownerCode);
-    })
+      self.setOwner(player.socket.id, ownerCode);
+    });
 
     socket.on('disconnect', function() {
-      self.removePlayer(socket.id)
+      self.removePlayer(player.socket.id)
     });
 
     // The owner has permission to start the game
     if (socket.id === this.owner) {
       socket.on('startGame', function() {
-        self.started = true;
+        self.startGame();
       })
     }
 
     // Increment count
     this.playerCount++;
+  }
+
+  startGame() {
+    this.started = true;
+
+    // Rule sharing
+    this.ruleManager = new RuleManager(players, config.drawingTime * 1000);
+    let ruleManager = this.ruleManager;
+    ruleManager.requestRules(()=> {
+      ruleManager.shareRules();
+    });
   }
 
   addPlayerSpectator(socket, name) {
@@ -120,11 +127,11 @@ var game = class {
       if (this.players[key]) compressedPlayers[key] = this.players[key].getCompressed();
     }
 
-    for (var key in this.players) {
+    for (key in this.players) {
       if (this.players[key]) this.players[key].socket.emit('update', compressedPlayers);
     }
   }
 
-}
+};
 
-module.exports = game;
+module.exports = Game;

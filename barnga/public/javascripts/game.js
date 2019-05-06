@@ -1,5 +1,13 @@
+//
+//  public/javascripts/game.js
+//  Barnga
+//
+//  Created by Robert May on 5/3/19.
+//  Copyright © 2019 Robert May. All rights reserved.
+//
+
 (() => {
-  var gameId, nickname, ownerCode
+  var gameId, nickname, ownerCode;
 
   var socket = io();
 
@@ -14,7 +22,7 @@
 
     // Try to set owner if owner code
     if (ownerCode) socket.emit('setOwner', ownerCode);
-  }
+  };
 
   socket.on('joinUnsuccessful', function() {
     console.log('join failed');

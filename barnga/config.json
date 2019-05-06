@@ -1,5 +1,10 @@
 {
   "oneDeckPerGame": true,
   "gameIdDigits": 4,
-  "fps": 30
+  "fps": 30,
+  "drawinngTime": 30,
+  "card": {
+    "width": 150,
+    "height": 150
+  }
 }
