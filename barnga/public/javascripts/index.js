@@ -1,7 +1,7 @@
 (() => {
   window.joinGame = function () {
     let name = document.getElementById('name').value;
-    let gameId = document.getElementById('gameId').value;
+    let gameId = document.getElementById('gameIdInput').value;
 
     window.location.replace('/b?g='+gameId+'&n='+name+'/');
   }

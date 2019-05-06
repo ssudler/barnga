@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534bb874-003c-4389-833b-a94ba912baea" name="Default Changelist" comment="" />
+    <list default="true" id="534bb874-003c-4389-833b-a94ba912baea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/barnga/public/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/barnga/public/javascripts/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barnga/models/game.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-750">
@@ -40,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/barnga/public/javascripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="45">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -112,7 +114,6 @@
       <list>
         <option value="$PROJECT_DIR$/barnga/public/javascripts/game.js" />
         <option value="$PROJECT_DIR$/barnga/models/game_manager.js" />
-        <option value="$PROJECT_DIR$/barnga/public/javascripts/index.js" />
         <option value="$PROJECT_DIR$/barnga/app.js" />
         <option value="$PROJECT_DIR$/barnga/bin/www" />
         <option value="$PROJECT_DIR$/barnga/routes/index.js" />
@@ -121,6 +122,7 @@
         <option value="$PROJECT_DIR$/barnga/views/game.pug" />
         <option value="$PROJECT_DIR$/barnga/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/barnga/views/index.pug" />
+        <option value="$PROJECT_DIR$/barnga/public/javascripts/index.js" />
       </list>
     </option>
   </component>
@@ -264,12 +266,12 @@
       <workItem from="1556510368642" duration="5935000" />
       <workItem from="1557028810800" duration="4057000" />
       <workItem from="1557082017363" duration="21131000" />
-      <workItem from="1557149581579" duration="1154000" />
+      <workItem from="1557149581579" duration="1412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36424000" />
+    <option name="totallyTimeSpent" value="36682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="736" extended-state="6" />
@@ -397,17 +399,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barnga/public/javascripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barnga/models/game.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-750">
           <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barnga/public/javascripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
