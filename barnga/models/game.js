@@ -18,7 +18,7 @@ var Game = class {
     this.id = gameId;
 
     // Number of cards per player
-    this.numberOfCards = numberOfCards;
+    this.numberOfCards = numberOfCards < 1 || isNaN(Number(numberOfCards)) ? 1 : Math.round(numberOfCards);
 
     // Filter inappropriate names
     this.filter = filter;
@@ -38,7 +38,7 @@ var Game = class {
 
     if (config.oneDeckPerGame) {
       this.deck = new Array(52);
-      for (var i = 0; i < 52; i++) { this.deck[i] = new Card(i / 13, i); }
+      for (var i = 0; i < 52; i++) { this.deck[i] = new Card(Math.floor(i / 13), i); }
     }
 
     // A callback which can be used to self destruct the game

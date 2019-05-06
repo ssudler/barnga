@@ -30,6 +30,6 @@
   });
 
   socket.on('update', function(data) {
-    document.getElementById('data').innerHTML = JSON.stringify(data);
+    console.log(data);
   })
 })();
