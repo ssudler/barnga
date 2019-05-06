@@ -17,6 +17,7 @@ button {
   left: 50%;
   top: 70%;
   transform: translate(-50%, -0%);
+  z-index: 10;
 }
 
 p {

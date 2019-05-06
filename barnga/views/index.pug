@@ -3,7 +3,7 @@ extends layout
 block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/index.js")
-<<<<<<< HEAD
+
   h1= title
   h2 Join Game
   label(for='name') Nickname
@@ -27,10 +27,9 @@ block content
     input#gameFilter.checkbox_input(type='checkbox', name='filterNames')
     br
     button#createGame.enter_button(onclick="window.createGame()") Create game!
-=======
+
   div#wrapper
     p= title
     label(for='name')
     input#name.text_input(type='text', name='name')
-    button(onclick="window.broadcast()") broadcast howdy
->>>>>>> d1d0c1446b1b66575beb588eba009defc78bddce
+    //button(onclick="window.broadcast()") broadcast howdy

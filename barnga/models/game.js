@@ -29,7 +29,7 @@ var game = class {
 
     if (config.oneDeckPerGame) {
       this.deck = new Array(52);
-      for (var i = 0; i < 52; i++) { this.deck[i] = new Card(i / 13, i); }
+      for (var i = 0; i < 52; i++) { this.deck[i] = new Card(Math.floor(i / 13), i); }
     }
 
     // A callback which can be used to self destruct the game

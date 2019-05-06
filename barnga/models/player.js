@@ -17,7 +17,7 @@ var player = class {
     }
 
     // The cards in the player's hand. Only the player can see these
-    this.hand = new Array(numberOfCards)
+    this.hand = new Array(numberOfCards);
 
     if (config.oneDeckPerGame) {
       // Randomly pick cards from deck
@@ -31,7 +31,7 @@ var player = class {
       }
     } else {
       // Randomly generate the cards
-      for (var i = 0; i < numberOfCards; i++) { this.hand[i] = new Card(randInt(4), randInt(13) + 1); }
+      for (var i = 0; i < numberOfCards; i++) { this.hand[i] = new Card(randInt(3), randInt(13) + 1); }
     }
 
     /* Card the player has put on the table.

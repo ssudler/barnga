@@ -9,7 +9,7 @@ var indexRouter = require('./routes/index');
 var app = express();
 
 // setup socket
-app.io = indexRouter.io
+app.io = indexRouter.io;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
