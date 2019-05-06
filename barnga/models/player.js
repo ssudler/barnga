@@ -1,7 +1,15 @@
+//
+//  models/player.js
+//  Barnga
+//
+//  Created by Robert May on 5/3/19.
+//  Copyright © 2019 Robert May. All rights reserved.
+//
+
 const Card = require('./card.js');
 const config = require('../config');
 
-var player = class {
+var Player = class {
 
   constructor(name, socket, numberOfCards, deck=[]) {
     // Display name and unique identifier for code
@@ -39,7 +47,7 @@ var player = class {
       * Player can see the card name but not the card unless revealed
       * All other players cannot see card or card name unless revealed
       */
-    this.table = []
+    this.table = [];
   }
 
   // Move a card from the hand to the table
@@ -74,6 +82,24 @@ var player = class {
     }
   }
 
-}
+  setUpSocket() {
+    this.socket.on('moveCardToHand', function(cardIndex) {
+      player.moveCardToHand(cardIndex);
+    });
 
-module.exports = player
+    this.socket.on('moveCardToTable', function(cardIndex) {
+      player.moveCardToTable(cardIndex);
+    });
+
+    this.socket.on('revealCard', function(cardIndex) {
+      player.revealCard(cardIndex);
+    });
+
+    this.socket.on('moveCard', function(cardIndex, x, y) {
+      player.moveCard(cardIndex, x, y);
+    });
+  }
+
+};
+
+module.exports = Player;

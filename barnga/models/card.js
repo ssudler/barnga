@@ -1,11 +1,19 @@
-var card = class {
+//
+//  models/card.js
+//  Barnga
+//
+//  Created by Robert May on 5/3/19.
+//  Copyright © 2019 Robert May. All rights reserved.
+//
+
+var Card = class {
 
   constructor(suit, number) {
     /*
-      0 - Hearts
-      1 - Diamonds
-      2 - Clubs
-      3 - Spades
+      0 - hearts
+      1 - diamonds
+      2 - clubs
+      3 - spades
     */
     this.suit = suit;
     // 1-13
@@ -30,17 +38,17 @@ var card = class {
 
     switch (name) {
       case 11:
-        name = "Jack"
-        break
+        name = "Jack";
+        break;
       case 12:
-        name = "Queen"
-        break
+        name = "Queen";
+        break;
       case 13:
-        name = "King"
-        break
+        name = "King";
+        break;
       case 1:
-        name = "Ace"
-        break
+        name = "Ace";
+        break;
       default:
         name = this.number;
     }
@@ -70,6 +78,6 @@ var card = class {
     return this.getName();
   }
 
-}
+};
 
-module.exports = card;
+module.exports = Card;

@@ -1,11 +1,24 @@
+//
+//  models/game_manager.js
+//  Barnga
+//
+//  Created by Robert May on 5/3/19.
+//  Copyright © 2019 Robert May. All rights reserved.
+//
+
 const Game = require('./game.js');
 const config = require('../config');
 
-var gameManager = class {
+var GameManager = class {
 
   constructor() {
     // All games
     this.games = {}
+  }
+
+  // End a game
+  removeGame(gameId) {
+    delete this.games[gameId];
   }
 
   // Create a new game, return gameId
@@ -17,7 +30,8 @@ var gameManager = class {
       id = Math.floor(Math.random() * Math.floor(Math.pow(10, config.gameIdDigits)));
     }
 
-    this.games[id] = new Game(id, numberOfCards, owner, filter, (gameId) => { this.removeGame(gameId) });
+    var self = this;
+    this.games[id] = new Game(id, numberOfCards, owner, filter, (gameId) => { self.removeGame(gameId) });
     return this.games[id];
   }
 
@@ -36,11 +50,6 @@ var gameManager = class {
     }
   }
 
-  // End a game
-  removeGame(gameId) {
-    delete this.games[gameId];
-  }
+};
 
-}
-
-module.exports = gameManager;
+module.exports = GameManager;

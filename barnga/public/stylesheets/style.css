@@ -3,31 +3,50 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-#wrapper {
+#gameId, #gameMessages {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 200px;
-  width: 100px;
-  transform: translate(-50%, -50%);
+  z-index: 999;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  text-align: center;
 }
 
-button {
-  position: relative;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -0%);
+#gameMessages {
+  top: 100px;
 }
 
-p {
-  position: relative;
-  font-size: 30px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#gameCanvas {
+  position: absolute;
+  z-index: 998;
+  top: 0;
+  left: 0;
 }
 
-input {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -75%);
-}
+/*#wrapper {*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*height: 200px;*/
+  /*width: 100px;*/
+/*}*/
+
+/*button {*/
+  /*position: relative;*/
+  /*left: 50%;*/
+  /*top: 70%;*/
+/*}*/
+
+/*p {*/
+  /*position: relative;*/
+  /*font-size: 30px;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+/*}*/
+
+/*input {*/
+  /*position: relative;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%, -75%);*/
+/*}*/

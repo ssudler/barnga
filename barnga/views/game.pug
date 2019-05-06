@@ -3,12 +3,13 @@ extends layout
 block content
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/game.js")
-<<<<<<< HEAD
   script.
     window.setGameVars("#{gameId}", "#{nickname}", "#{ownerCode}");
-  h1= title
-=======
-  p= title
->>>>>>> d1d0c1446b1b66575beb588eba009defc78bddce
-  p Welcome to #{title}
-  p#data
+  //h1= title
+  //p Welcome to #{title}
+  //p#data
+  h1#gameId= gameId
+  br
+  h2#gameMessages ...
+  br
+  canvas#gameCanvas
